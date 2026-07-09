@@ -1,0 +1,34 @@
+/*
+Theme Name: Agency Creative Portfolio
+Theme URI: https://github.com/yourusername/agency-portfolio
+Author: Dmytro Petryna
+Description: A modern portfolio built with Bootstrap 5 and WordPress, utilising custom post types.
+Version: 1.0
+Requires at least: 5.0
+Tested up to: 6.5
+Requires PHP: 7.4
+*/
+
+.entry-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 1.5rem;
+    border-radius: 0.375rem;
+}
+
+.entry-content .aligncenter {
+    margin: 1.5rem auto;
+}
+
+.entry-content .alignleft {
+    float: left;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.entry-content .alignright {
+    float: right;
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
